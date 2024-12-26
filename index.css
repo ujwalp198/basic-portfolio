@@ -1,0 +1,150 @@
+body 
+{
+    font-family: 'Arial', sans-serif;
+    margin: 0;
+    padding: 0;
+    background-color: #f4f4f9;
+    color: #333;
+}
+
+header {
+    background-color: rgba(33, 33, 217, 0.7);
+    color: white;
+    padding: 1rem 0;
+    text-align: center;
+    position: sticky;
+    top: 0;
+    z-index: 1000;
+    box-shadow: 0 2px 5px rgba(33, 33, 217, 0.7);
+}
+
+header .container {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    padding: 0 20px;
+}
+
+header h1 {
+    margin: 0;
+    font-size: 2rem;
+}
+
+nav a {
+    color: white;
+    text-decoration: none;
+    margin: 0 15px;
+    transition: color 0.3s;
+}
+
+nav a:hover {
+    color: #FFD700;
+}
+
+section {
+    padding: 2rem;
+    margin: 20px 0;
+}
+
+.container {
+    max-width: 800px;
+    margin: auto;
+    padding: 0 20px;
+}
+
+section h2
+{
+    font-size: 2rem;
+    margin-bottom: 1rem;
+    color:rgba(33, 33, 217, 0.7) ;
+    border-bottom: 2px solid rgba(33, 33, 217, 0.7);
+    display: inline-block;
+}
+
+.about img 
+{
+    display: block;
+    border-radius: 0; 
+    margin: 20px auto;
+    box-shadow: 0 5px 15px rgba(33, 33, 217, 0.7);
+}
+
+.cp {
+    display: flex;
+    gap: 10px;
+    justify-content: center;
+    margin-top: 20px;
+}
+
+.cp a {
+    color: rgba(33, 33, 217, 0.7); 
+    text-decoration: none;
+    font-weight: bold;
+    padding: 0; 
+    background: none; 
+    transition: color 0.3s;
+}
+
+.cp a:hover {
+    color: #FFD700; 
+}
+
+
+.skills {
+    display: flex;
+    gap: 10px;
+    flex-wrap: wrap;
+}
+
+.skill 
+{
+    background-color: rgba(33, 33, 217, 0.7);
+    color: white;
+    padding: 10px 15px;
+    border-radius: 20px;
+    box-shadow: 0 2px 5px rgba(33, 33, 217, 0.7);
+    transition: transform 0.2s;
+}
+
+.skill:hover {
+    transform: scale(1.1);
+}
+
+footer {
+    background-color: rgba(33, 33, 217, 0.7);
+    color: white;
+    text-align: center;
+    padding: 1rem 0;
+    margin-top: 2rem;
+}
+
+footer p {
+    margin: 0;
+    font-size: 1rem;
+}
+
+.button-container {
+    display: flex;
+    justify-content: center; /* Centers horizontally */
+    align-items: center;    /* Centers vertically */
+    height: 100vh;          /* Full viewport height */
+}
+
+button {
+    background-color: rgba(33, 33, 217, 0.7);
+    color: white;
+    padding: 10px 20px;
+    border: none;
+    border-radius: 5px;
+    cursor: pointer;
+    transition: background-color 0.3s;
+}
+
+button a {
+    color: white;
+    text-decoration: none; /* Removes underline from link */
+}
+
+button:hover {
+    background-color: rgba(33, 33, 217, 0.9); /* Darker blue on hover */
+}
